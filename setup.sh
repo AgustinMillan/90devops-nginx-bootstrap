@@ -11,7 +11,7 @@ echo "🛠️ Construyendo imagen..."
 docker build -t nginx-bootstrap .
 
 echo "🏃 Ejecutando contenedor..."
-docker run -d -p 8080:80 nginx-bootstrap
+docker run -d -p 8002 nginx-bootstrap
 
 echo ""
 echo "✅ Abrí la vista previa del puerto 8080 en Google Cloud Shell (icono de cuadrado con flecha)."
