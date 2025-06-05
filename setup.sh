@@ -2,9 +2,9 @@
 
 echo "🧱 Preparando entorno..."
 mkdir -p site && cd site
-wget https://github.com/startbootstrap/startbootstrap-freelancer/archive/refs/heads/gh-pages.zip
-unzip gh-pages.zip
-mv startbootstrap-freelancer-gh-pages/* .
+wget https://github.com/AgustinMillan/Portafolio/archive/refs/heads/dist.zip
+unzip dist.zip
+mv Portafolio-dist/* .
 cd ..
 
 echo "🛠️ Construyendo imagen..."
